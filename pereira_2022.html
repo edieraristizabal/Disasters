@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Pereira 2022</title>
+
+	<meta name="description"
+		content="Presentation for the Second International Conference on Natural Hazards and Risks in a Changing World 2021">
+	<meta name="author" content="Edier Aristizábal and the framework Reveals by Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/Serif.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="dist/style.css">
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+
+			<div id="marca-agua"><img style="border:none;box-shadow:none;width:60px;position:absolute;top:0%;right:0%;"
+					src="https://i.pinimg.com/564x/16/00/25/160025389ece35051191654da8f26b4c.jpg" />
+				<p id="date"></p>
+			</div>
+			<!--<div id="lecture" style="font-size:20px;position:absolute;top:100%;right:32%;">Machine Learning (Introducción)</div>-->
+
+			<section data-background-color="#ffffff" ; data-state="primera">
+				<h1 style="font-size: 40px; color: black;">
+					The landslide disaster in Pereira city (Colombia)
+				</h1>
+				<h2>
+					Febrary 08, 2022
+				</h2>
+				<h4 style="font-size: 30px;">
+					Edier Aristizábal, Andrés Felipe Baena
+				</h4>
+				<h5 style="font-size: 20px;">
+					Geohazards, Departamento de Geociencias y Medio Ambiente, Universidad Nacional de Colombia,
+					Medellín, Colombia
+				</h5>
+				<img src="https://i.pinimg.com/564x/f8/5b/28/f85b28f72a65d9c64d8c5e4a7bac57aa.jpg" alt="unal.jpg"
+					width="600" />
+				<p id="demo" style="position:absolute;top:100%;right:40%; color: gray;"></p>
+			</section>
+
+			<section>
+				<h3>Location</h3>
+				<img src="images/" width="800">
+				<figcaption></figcaption>
+			</section>
+
+			<section>
+				<h3>Location</h3>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.4802696137913!2d-77.94625868546169!3d1.192929999129887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x453ca59004b05e93!2zMcKwMTEnMzQuNiJOIDc3wrA1NiczOC43Ilc!5e1!3m2!1ses!2sco!4v1638742569019!5m2!1ses!2sco"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</section>
+
+			<section>
+				<img src="images/Pereira_2022/foto1.JPG" width="800">
+				<figcaption></figcaption>
+			</section>
+
+			<section>
+				<img src="images/Pereira_2022/foto2.JPG" width="1000">
+				<figcaption></figcaption>
+			</section>
+
+			<section>
+				<img src="images/Pereira_2022/foto3.JPeG" alt="">
+				<figcaption></figcaption>
+			</section>
+
+			<section>
+				<img src="images/Pereira_2022/foto4.JPG" alt="">
+				<figcaption></figcaption>
+			</section>
+
+			<section>
+				<img src="images/Pereira_2022/foto5.JPeG" alt="">
+				<figcaption></figcaption>
+			</section>
+
+			<section>
+				<img src="https://i.pinimg.com/564x/16/00/25/160025389ece35051191654da8f26b4c.jpg" width="400">
+				<hr>
+				<a style="color: blue; font-size: 30px;" href="https://geohazards.com.co/">https://geohazards.com.co</a>
+			</section>
+
+			
+
+		</div>
+
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/math/math.js"></script>
+
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/	
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			slideNumber: 'c/t',
+			hash: true,
+			math: {
+				// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				TeX: {
+					Macros: {
+						R: '\\mathbb{R}',
+						set: ['\\left\\{#1 \\; ; \\; #2\\right\\}', 2]
+					}
+				}
+			},
+			menu: {
+				side: 'left', // 'left' or 'right'.
+				width: 'normal', // 'normal', 'wide', 'third', 'half', 'full', or
+				numbers: false,
+				titleSelector: 'h1, h2, h3',
+				useTextContentForMissingTitles: false,
+				hideMissingTitles: false,
+				markers: true,
+				custom: false,
+				themes: true,
+				themesPath: 'dist/theme/',
+				transitions: false,  // ['None', 'Fade', 'Slide']
+				openButton: true,
+				openSlideNumber: true,
+				keyboard: true,
+				sticky: false,
+				autoOpen: true,
+				delayInit: false,
+				openOnInit: false,
+				loadIcons: true
+			},
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealMath]
+		});
+	</script>
+
+</body>
+
+</html>
