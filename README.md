@@ -5,5 +5,5 @@
 ## Disasters in the Colombian Andes
 
 * [Mallama (Nariño, 2021)](/nariño_2021.html)
-* [Pereira (2022](/pereira_2022.html)
+* [Pereira (2022)](/pereira_2022.html)
 
